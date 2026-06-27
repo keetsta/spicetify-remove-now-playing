@@ -1,8 +1,6 @@
 // NAME: Remove Now Playing
 // AUTHOR: keetsta
-// DESCRIPTION: Аннигилирует правую панель "Now Playing" к чертям собачьим:
-//              прячет её через CSS и принудительно захлопывает каждый раз,
-//              когда Spotify пытается её открыть (старт, смена трека и т.п.).
+// DESCRIPTION: Removes the "now playing" page on the right completely.
 
 (function removeNowPlaying() {
   // Ждём пока Spicetify и DOM приложения прогрузятся.
